@@ -3,7 +3,9 @@ body {
  margin : 200px; 
  font-size: 150%;
 }
-
-#maindiv :first-child {
+div :first-child{
+    background-color: aqua;
+}
+div div :first-child {
 background-color: yellow;
 }    
